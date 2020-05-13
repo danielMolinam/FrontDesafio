@@ -1,0 +1,51 @@
+
+<button type="button" class="btnCerrar" (click)="closeModal()">
+    <span class="glyphicon glyphicon-remove"></span>
+  </button><h1 mat-dialog-title>CITAS AMBULATORIAS</h1>
+<div class="col-12 pt-5">
+    <hr>
+</div>
+<div class="input-group col-xs-12 col-sm-12 col-md-4 col-md-offset-8">
+    <input type="text" class="form-control" placeholder="Filtro rapido"/>
+    <span class="input-group-addon">
+        <i class="glyphicon glyphicon-search"></i>
+    </span>
+</div>
+<div mat-dialog-content class="mat-typography">
+    <table class="table">
+        <thead class="cabecera">
+          <tr>
+            <th scope="col">SUCURSAL</th>
+            <th scope="col">AÑO</th>
+            <th scope="col">MES</th>
+            <th scope="col">TIPO</th>
+            <th scope="col">PREVISION</th>
+            <th scope="col">CANTIDAD</th>
+            <th scope="col">TOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="dato" *ngFor="let det of ItemsArray">
+            <!--th scope="row">{{det.producto}} [(ngModel)]="isChecked"</th-->
+            <td>{{det.sucursal}}</td>
+            <td>{{det.anio}}</td>
+            <td>{{det.mes}}</td>
+            <td>{{det.tipo}}</td>
+            <td>{{det.prevision}}</td>
+            <td>{{det.cantidad}}</td>
+            <td>{{det.total}}</td>
+            <!--td>
+              <img src="assets/img/{{postre.img}}" width="30px" class="img-fluid" alt="{{postre.nombre}}">
+            </td-->
+          </tr>
+        </tbody>
+    </table>
+    <div class="col-12 pt-5">
+        <hr>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-md-offset-4">
+        <button type="button" class="btnCe button-label">CERRAR</button>
+        <button type="button" class="btnModal button-label"><label class="btnLabel">ENVIAR POR CORREO</label></button>
+        <button type="button" class="btnModal button-label"><label class="btnLabel">DESCARGAR</label></button>
+    </div> 
+</div>

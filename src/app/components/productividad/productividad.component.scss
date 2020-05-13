@@ -1,0 +1,197 @@
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  width: 460px;
+  height: 200px;
+}
+.cardEx {
+  background-color: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  width: 460px;
+  height: 200px;
+  margin-left: 15px;
+}
+.cardCer {
+  background-color: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  width: 460px;
+  height: 200px;
+  margin-top: 15px;
+}
+.cardDe {
+  background-color: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  width: 460px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: 15px;
+} 
+.rectangle {
+  background-color: #FFFFFF;
+  border: 1px solid #EBEBEB;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  width: 934px;
+  height: 88px;
+  margin-top: 15px;
+}
+.rech5 {
+  color: #242424;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 86px;
+  text-align: left;
+}
+.resh5 {
+  color: #242424;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  width: 62px;
+  text-align: right;
+}
+.rectangle-copy-3 {
+  background-color: #F6F8FA;
+  width: 370px;
+  height: 41px;
+}
+.rectangle-copy-7 {
+  background-color: #F6F8FA;
+  width: 888px;
+  height: 54px;
+  margin-top: 15px;
+}
+@media (max-width: 575.98px) {
+  .cardEx {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .cardCer {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-top: 0px;
+    margin-top: 15px;
+  }
+  .cardDe {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .rectangle{
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 88px;
+  }
+  .card {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+  }
+  .rectangle-copy-7 {
+    background-color: #F6F8FA;
+    width: 314px;
+    height: 54px;
+  }
+  .matField {
+    margin-left: 0px;
+  }
+  .rectangle-copy-3 {
+    background-color: #F6F8FA;
+    width: 314px;
+    height: 41px;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 1024px) { 
+  .cardEx {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .cardCer {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-top: 0px;
+    margin-top: 0px;
+  }
+  .cardDe {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .rectangle{
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 88px;
+  }
+  .card {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    width: 317px;
+    height: 230px;
+  }
+  .rectangle-copy-7 {
+    background-color: #F6F8FA;
+    width: 314px;
+    height: 54px;
+  }
+  .matField {
+    margin-left: 0px;
+  }
+  .rectangle-copy-3 {
+    background-color: #F6F8FA;
+    width: 314px;
+    height: 41px;
+  }
+}
