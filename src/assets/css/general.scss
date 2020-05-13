@@ -37,6 +37,23 @@
     width: 128.44px;
     text-align: left;
 }
+.rectangle-15-copy {
+    background-color: #FFFFFF;
+    border: 2px solid #4D648D;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.29);
+    width: 170px;
+    height: 39px;
+}
+.btnlabel {
+    color: #4D648D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    width: 138.31px;
+    text-align: center;
+}
 .button-label {
     color: #4D648D;
     font-family: Roboto;
@@ -134,4 +151,21 @@ hr {
 }
 .glyphicon-remove:before {
     color:  #4D648D;
+}
+.navHeader {
+    background-color: #4D648D;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+}
+.navbar-default .navbar-brand {
+    color: #fff !important;
+}
+.search {
+    background-color: #FFFFFF;
+    border: 1px solid #B8CDEB;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.03);
+    width: 186px;
+    height: 32px;
 }
